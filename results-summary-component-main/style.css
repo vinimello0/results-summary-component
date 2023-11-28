@@ -7,6 +7,16 @@
 * {
     margin: 0;
     padding: 0;
+    letter-spacing: 1.5;
+}
+
+@font-face {
+    font-family: HankensGrotesk;
+    src: url(./assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+body { 
+    font-family: HankensGrotesk;
 }
 
 .wrapper {
@@ -14,12 +24,11 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 1px 1px 1px black;
+    box-shadow: 1px 1px .4em rgba(0, 0, 0, .2);
     width: 40%;
     border-radius: 1.25rem;
     min-height: 25em;;
     display: flex;
-
 }
 
 .containerOne {
@@ -30,6 +39,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .titleOne {
@@ -46,6 +56,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1em;
 }
 
 span {
@@ -56,10 +67,130 @@ span {
 .number76 {
     font-size: 4em;
     color: white;
-
+    font-weight: 700;
 }
 
 .positions {
     font-size: 1em;
     color: rgba(255, 255, 255, 0.4)
+}
+
+.titleTwo {
+    color: white;
+    font-size: 1.4em;
+    margin: .8em 0;
+    font-weight: 400;
+}
+
+.textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    color: hsl(241, 100%, 89%);
+    font-size: 14px;
+    /* text-align: justify; */
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.containerTwo {
+    margin-left: 1em;
+    padding: 1em;
+    width: 50%;
+    border-radius: 1.25rem;
+}
+
+.titleThree {
+    margin: 1.5em 0;
+}
+
+.box1 {
+    background-color: hsl(0, 100%, 67%, .1);
+    width: 100%;
+    display: flex;
+    color: hsl(0, 100%, 67%, .9);
+    padding: .5em .5em;
+    border-radius: .5rem;
+    justify-content: space-around;
+    margin-bottom: .7em;
+}
+
+.box1 img {
+    margin-right: .5em;
+}
+
+.box2 {
+    background-color: hsl(39, 100%, 56%, .1);
+    width: 100%;
+    display: flex;
+    color: hsl(39, 100%, 56%);
+    padding: .5em .5em;
+    border-radius: .5rem;
+    justify-content: space-around;
+    margin-bottom: .5em;
+    margin-bottom: .7em;
+}
+
+.box2 img {
+    margin-right: .5em;
+}
+
+.box3 {
+    background-color: hsl(166, 100%, 37%, .1);
+    width: 100%;
+    display: flex;
+    color: hsl(166, 100%, 37%);
+    padding: .5em .5em;
+    border-radius: .5rem;
+    justify-content: space-around;
+    margin-bottom: .5em;
+    margin-bottom: .7em;
+}
+
+.box3 img {
+    margin-right: .5em;
+}
+
+.box4 {
+    background-color: hsl(234, 85%, 45%, .1);
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: hsl(234, 85%, 45%);
+    padding: .5em .5em;
+    border-radius: .5rem;
+    margin-bottom: .5em;
+    margin-bottom: .7em;
+}
+
+.box4 img {
+    margin-right: .5em;
+}
+
+.modifier {
+    
+    color: rgb(0, 0, 0, .8);
+    margin-left: 4em;
+}
+
+.btn {
+    background-color: hsl(224, 30%, 27%);
+    width: 100%;
+    border-radius: 1.25rem;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1.5em;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    display: block; 
+}
+
+.btn:hover {
+    background-color: hsla(256, 72%, 46%, 1);
 }
