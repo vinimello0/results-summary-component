@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    letter-spacing: 1.5;
 }
 
 @font-face {
@@ -24,7 +23,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 1px 1px .4em rgba(0, 0, 0, .2);
+    box-shadow: 1px 1px 1em rgba(0, 0, 0, .2);
     width: 40%;
     border-radius: 1.25rem;
     display: flex;
@@ -90,7 +89,6 @@ span {
 .text {
     color: hsl(241, 100%, 89%);
     font-size: 14px;
-    /* text-align: justify; */
     letter-spacing: 1px;
     text-align: center;
 }
@@ -129,7 +127,6 @@ span {
     padding: .5em .5em;
     border-radius: .5rem;
     justify-content: space-around;
-    margin-bottom: .5em;
     margin-bottom: .7em;
 }
 
@@ -145,7 +142,6 @@ span {
     padding: .5em .5em;
     border-radius: .5rem;
     justify-content: space-around;
-    margin-bottom: .5em;
     margin-bottom: .7em;
 }
 
@@ -161,7 +157,6 @@ span {
     color: hsl(234, 85%, 45%);
     padding: .5em .5em;
     border-radius: .5rem;
-    margin-bottom: .5em;
     margin-bottom: .7em;
 }
 
@@ -170,7 +165,6 @@ span {
 }
 
 .modifier {
-    
     color: rgb(0, 0, 0, .8);
     margin-left: 4em;
 }
