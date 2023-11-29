@@ -27,7 +27,6 @@ body {
     box-shadow: 1px 1px .4em rgba(0, 0, 0, .2);
     width: 40%;
     border-radius: 1.25rem;
-    min-height: 25em;;
     display: flex;
 }
 
@@ -193,4 +192,38 @@ span {
 
 .btn:hover {
     background-color: hsla(256, 72%, 46%, 1);
+}
+
+@media screen and (max-width: 66.87em) {
+    .wrapper {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        flex-direction: column;
+        width: 40%;
+        min-width: 20.06em;
+        max-height: 40em;
+    }
+
+    .containerOne {
+        width: 100%;
+    }
+
+    .containerTwo {
+        width: 100%;
+        justify-content: center;
+        margin-right: 1em;
+        margin-left: 0;
+    }
+
+    .box1 {
+        text-align: center;
+    }
+
+    .titleOne, .titleThree {
+        margin: 0 0 .5em 0;
+        text-align: center;
+    
+    }
 }
